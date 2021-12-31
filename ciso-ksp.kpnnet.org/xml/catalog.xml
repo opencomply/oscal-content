@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
+  uuid="f13ef27c-64f0-4c74-95f2-80dbb2d6012e">
+  <metadata>
+    <title>KPN Security Policy</title>
+    <published>2021-12-25T21:30:00+00:00</published>
+    <last-modified>2021-12-25T21:30:00+00:00</last-modified>
+    <version>0.1.0</version>
+    <oscal-version>1.0.0</oscal-version>
+  </metadata>
+</catalog>

@@ -1,0 +1,9 @@
+---
+catalog:
+  uuid: f13ef27c-64f0-4c74-95f2-80dbb2d6012e
+  metadata:
+    title: KPN Security Policy
+    published: 2021-12-25T21:30:00+00:00
+    last-modified: 2021-12-25T21:30:00+00:00
+    version: 0.1.0
+    oscal-version: 1.0.0
