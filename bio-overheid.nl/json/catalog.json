@@ -1,0 +1,32 @@
+{
+  "catalog": {
+    "uuid": "6a1d7aad-fa27-4046-8ec2-0c1447387e74",
+    "metadata": {
+      "title": "Baseline Informatiebeveiliging Overheid",
+      "published": "2022-01-03T21:00:00+00:00",
+      "last-modified": "2022-01-03T21:00:00+00:00",
+      "version": "1.0.4",
+      "oscal-version": "1.0.0",
+      "links": [
+        {
+          "href": "#fe721880-14ea-4efb-9bb2-4d51e646901d",
+          "rel": "canonical"
+        }
+      ]
+    },
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "fe721880-14ea-4efb-9bb2-4d51e646901d",
+          "title": "Baseline Informatiebeveiliging Overheid",
+          "rlinks": [
+            {
+              "href": "https://www.bio-overheid.nl/media/1572/bio-versie-104zv_def.pdf",
+              "media-type": "application/pdf"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
