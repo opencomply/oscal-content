@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
+  uuid="6a1d7aad-fa27-4046-8ec2-0c1447387e74">
+  <metadata>
+    <title>Baseline Informatiebeveiliging Overheid</title>
+    <published>2022-01-03T21:00:00+00:00</published>
+    <last-modified>2022-01-03T21:00:00+00:00</last-modified>
+    <version>1.0.4</version>
+    <oscal-version>1.0.0</oscal-version>
+    <link rel="canonical" href="#fe721880-14ea-4efb-9bb2-4d51e646901d"/>
+  </metadata>
+  <back-matter>
+    <resource uuid="fe721880-14ea-4efb-9bb2-4d51e646901d">
+      <title>Baseline Informatiebeveiliging Overheid</title>
+      <rlink media-type="application/pdf"
+             href="https://www.bio-overheid.nl/media/1572/bio-versie-104zv_def.pdf"/>
+    </resource>
+  </back-matter>
+</catalog>
