@@ -7,5 +7,12 @@
     <last-modified>2021-12-25T21:30:00+00:00</last-modified>
     <version>0.1.0</version>
     <oscal-version>1.0.0</oscal-version>
+    <link rel="canonical" href="#06590907-2d51-4a7c-8507-c5438711e050"/>
   </metadata>
+  <back-matter>
+    <resource uuid="06590907-2d51-4a7c-8507-c5438711e050">
+      <title>KPN Security Policy</title>
+      <rlink href="https://ciso-ksp.kpnnet.org/"/>
+    </resource>
+  </back-matter>
 </catalog>
