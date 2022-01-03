@@ -1,5 +1,5 @@
 # OSCAL Content
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/opencomply/oscal-content/Process%2520Content%2520Artifacts?color=blue&style=for-the-badge)](https://github.com/opencomply/oscal-content/actions)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/opencomply/oscal-content/Process%20Content%20Artifacts?color=blue&style=for-the-badge)](https://github.com/opencomply/oscal-content/actions)
 [![OSCAL](https://img.shields.io/badge/OSCAL-1.0.0-blue?style=for-the-badge)](https://github.com/usnistgov/OSCAL/releases/tag/v1.0.0)
 
 This repository contains community maintained OSCAL content in XML, JSON, and YAML formats based on the [OSCAL 1.0.0 release](https://github.com/usnistgov/OSCAL/releases/tag/v1.0.0).
