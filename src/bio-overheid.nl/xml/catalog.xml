@@ -1,14 +1,360 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0"
-  uuid="6a1d7aad-fa27-4046-8ec2-0c1447387e74">
+  uuid="e748962d-67a9-40e9-9375-79e838df79d5">
   <metadata>
     <title>Baseline Informatiebeveiliging Overheid</title>
     <published>2022-01-03T21:00:00+00:00</published>
-    <last-modified>2022-01-03T21:00:00+00:00</last-modified>
+    <last-modified>2022-01-07T21:53:00+00:00</last-modified>
     <version>1.0.4</version>
     <oscal-version>1.0.0</oscal-version>
     <link rel="canonical" href="#fe721880-14ea-4efb-9bb2-4d51e646901d"/>
   </metadata>
+  <group id="s5">
+    <title>Informatiebeveiligingsbeleid</title>
+    <prop name="label" value="5"/>
+    <group id="s5.1">
+      <title>Aansturing door de directie van de informatiebeveiliging</title>
+      <prop name="label" value="5.1"/>
+      <part id="s5.1_smt" name="objective">
+        <p>Het verschaffen van directieaansturing van en -steun voor
+          informatiebeveiliging in overeenstemming met bedrijfseisen en
+          relevante wet- en regelgeving.</p>
+      </part>
+    </group>
+  </group>
+  <group id="s6">
+    <title>Organiseren van informatiebeveiliging</title>
+    <prop name="label" value="6"/>
+    <group id="s6.1">
+      <title>Interne organisatie</title>
+      <prop name="label" value="6.1"/>
+      <part id="s6.1_smt" name="objective">
+        <p>Een beheerkader vaststellen om de implementatie en uitvoering van de
+          informatiebeveiliging binnen de organisatie te initiëren en te
+          beheersen.</p>
+      </part>
+    </group>
+    <group id="s6.2">
+      <title>Mobiele apparatuur en telewerken</title>
+      <prop name="label" value="6.2"/>
+      <part id="s6.2_smt" name="objective">
+        <p>Het waarborgen van de veiligheid van telewerken en het gebruik van
+          mobiele apparatuur</p>
+      </part>
+    </group>
+  </group>
+  <group id="s7">
+    <title>Veilig personeel</title>
+    <prop name="label" value="7"/>
+    <group id="s7.1">
+      <title>Voorafgaand aan het dienstverband</title>
+      <prop name="label" value="7.1"/>
+      <part id="s7.1_smt" name="objective">
+        <p>Waarborgen dat medewerkers en contractanten hun
+          verantwoordelijkheden begrijpen en geschikt zijn voor de rollen
+          waarvoor zij in aanmerking komen.</p>
+      </part>
+    </group>
+    <group id="s7.2">
+      <title>Tijdens het dienstverband</title>
+      <prop name="label" value="7.2"/>
+      <part id="s7.2_smt" name="objective">
+        <p>Ervoor zorgen dat medewerkers en contractanten zich bewust zijn van
+          hun verantwoordelijkheden op het gebied van informatiebeveiliging en
+          deze nakomen.</p>
+      </part>
+    </group>
+    <group id="s7.3">
+      <title>Beëindiging en wijziging van dienstverband</title>
+      <prop name="label" value="7.3"/>
+      <part id="s7.3_smt" name="objective">
+        <p>Het beschermen van de belangen van de organisatie als onderdeel van
+          de wijzigings- of beëindigingsprocedure van het dienstverband.</p>
+      </part>
+    </group>
+  </group>
+  <group id="s8">
+    <title>Beheer van bedrijfsmiddelen</title>
+    <prop name="label" value="8"/>
+    <group id="s8.1">
+      <title>Verantwoordelijkheid voor bedrijfsmiddelen</title>
+      <prop name="label" value="8.1"/>
+      <part id="s8.1_smt" name="objective">
+        <p>Bedrijfsmiddelen van de organisatie identificeren en passende
+          verantwoordelijkheden ter bescherming definiëren.</p>
+      </part>
+    </group>
+    <group id="s8.2">
+      <title>Informatieclassificatie</title>
+      <prop name="label" value="8.2"/>
+      <part id="s8.2_smt" name="objective">
+        <p>Bewerkstelligen dat informatie een passend beschermingsniveau krijgt
+          dat in overeenstemming is met het belang ervan voor de organisatie.
+          </p>
+      </part>
+    </group>
+    <group id="s8.3">
+      <title>Behandelen van media</title>
+      <prop name="label" value="8.3"/>
+      <part id="s8.3_smt" name="objective">
+        <p>Onbevoegde openbaarmaking, wijziging, verwijdering of vernietiging
+          van informatie die op media is opgeslagen voorkomen.</p>
+      </part>
+    </group>
+  </group>
+  <group id="s9">
+    <title>Toegangsbeveiliging</title>
+    <prop name="label" value="9"/>
+    <group id="s9.1">
+      <title>Bedrijfseisen voor toegangsbeveiliging</title>
+      <prop name="label" value="9.1"/>
+      <part id="s9.1_smt" name="objective">
+        <p>Toegang tot informatie en informatie verwerkende faciliteiten
+          beperken.</p>
+      </part>
+    </group>
+    <group id="s9.2">
+      <title>Beheer van toegangsrechten van gebruikers</title>
+      <prop name="label" value="9.2"/>
+      <part id="s9.2_smt" name="objective">
+        <p>Toegang voor bevoegde gebruikers bewerkstelligen en onbevoegde
+          toegang tot systemen en diensten voorkomen.</p>
+      </part>
+    </group>
+    <group id="s9.3">
+      <title>Verantwoordelijkheden van gebruikers</title>
+      <prop name="label" value="9.3"/>
+      <part id="s9.3_smt" name="objective">
+        <p>Gebruikers verantwoordelijk maken voor het beschermen van hun
+          authenticatie-informatie.</p>
+      </part>
+    </group>
+    <group id="s9.4">
+      <title>Toegangsbeveiliging van systeem en toepassing</title>
+      <prop name="label" value="9.4"/>
+      <part id="s9.4_smt" name="objective">
+        <p>Onbevoegde toegang tot systemen en toepassingen voorkomen.</p>
+      </part>
+    </group>
+  </group>
+  <group id="s10">
+    <title>Cryptografie</title>
+    <prop name="label" value="10"/>
+    <group id="s10.1">
+      <title>Cryptografische beheersmaatregelen</title>
+      <prop name="label" value="10.1"/>
+      <part id="s10.1_smt" name="objective">
+        <p>Zorgen voor correct en doeltreffend gebruik van cryptografie om de
+          vertrouwelijkheid, authenticiteit en/of integriteit van informatie te
+          beschermen.</p>
+      </part>
+    </group>
+  </group>
+  <group id="s11">
+    <title>Fysieke beveiliging en beveiliging van de omgeving</title>
+    <prop name="label" value="11"/>
+    <group id="s11.1">
+      <title>Beveiligde gebieden</title>
+      <prop name="label" value="11.1"/>
+      <part id="s11.1_smt" name="objective">
+        <p>Onbevoegde fysieke toegang tot, schade aan en interferentie met
+          informatie en informatie verwerkende faciliteiten van de organisatie
+          voorkomen.</p>
+      </part>
+    </group>
+    <group id="s11.2">
+      <title>Apparatuur</title>
+      <prop name="label" value="11.2"/>
+      <part id="s11.2_smt" name="objective">
+        <p>Verlies, schade, diefstal of compromittering van bedrijfsmiddelen en
+          onderbreking van de bedrijfsvoering van de organisatie voorkomen.</p>
+      </part>
+    </group>
+  </group>
+  <group id="s12">
+    <title>Beveiliging bedrijfsvoering</title>
+    <prop name="label" value="12"/>
+    <group id="s12.1">
+      <title>Bedieningsprocedures en verantwoordelijkheden</title>
+      <prop name="label" value="12.1"/>
+      <part id="s12.1_smt" name="objective">
+        <p>Correcte en veilige bediening van informatie verwerkende
+          faciliteiten waarborgen.</p>
+      </part>
+    </group>
+    <group id="s12.2">
+      <title>Bescherming tegen malware</title>
+      <prop name="label" value="12.2"/>
+      <part id="s12.2_smt" name="objective">
+        <p>Waarborgen dat informatie en informatie verwerkende faciliteiten
+          beschermd zijn tegen malware.</p>
+      </part>
+    </group>
+    <group id="s12.3">
+      <title>Back-up</title>
+      <prop name="label" value="12.3"/>
+      <part id="s12.3_smt" name="objective">
+        <p>Beschermen tegen het verlies van gegevens.</p>
+      </part>
+    </group>
+    <group id="s12.4">
+      <title>Verslaglegging en monitoren</title>
+      <prop name="label" value="12.4"/>
+      <part id="s12.4_smt" name="objective">
+        <p>Gebeurtenissen vastleggen en bewijs verzamelen.</p>
+      </part>
+    </group>
+    <group id="s12.5">
+      <title>Beheersing van operationele software</title>
+      <prop name="label" value="12.5"/>
+      <part id="s12.5_smt" name="objective">
+        <p>De integriteit van operationele systemen waarborgen.</p>
+      </part>
+    </group>
+    <group id="s12.6">
+      <title>Beheer van technische kwetsbaarheden</title>
+      <prop name="label" value="12.6"/>
+      <part id="s12.6_smt" name="objective">
+        <p>Benutting van technische kwetsbaarheden voorkomen.</p>
+      </part>
+    </group>
+    <group id="s12.7">
+      <title>Overwegingen betreffende audits van informatiesystemen</title>
+      <prop name="label" value="17"/>
+      <part id="s12.7_smt" name="objective">
+        <p>De impact van auditactiviteiten op uitvoeringssystemen zo gering
+          mogelijk maken.</p>
+      </part>
+    </group>
+  </group>
+  <group id="s13">
+    <title>Communicatiebeveiliging</title>
+    <prop name="label" value="13"/>
+    <group id="s13.1">
+      <title>Beheer van netwerkbeveiliging</title>
+      <prop name="label" value="13.1"/>
+      <part id="s13.1_smt" name="objective">
+        <p>De bescherming van informatie in netwerken en de ondersteunende
+          informatie verwerkende faciliteiten waarborgen.</p>
+      </part>
+    </group>
+    <group id="s13.2">
+      <title>Informatietransport</title>
+      <prop name="label" value="13.2"/>
+      <part id="s13.2_smt" name="objective">
+        <p>Handhaven van de beveiliging van informatie die wordt uitgewisseld
+          binnen een organisatie en met een externe entiteit.</p>
+      </part>
+    </group>
+  </group>
+  <group id="s14">
+    <title>Acquisitie, ontwikkeling en onderhoud van informatiesystemen</title>
+    <prop name="label" value="14"/>
+    <group id="s14.1">
+      <title>Beveiligingseisen voor informatiesystemen</title>
+      <prop name="label" value="14.1"/>
+      <part id="s14.1_smt" name="objective">
+        <p>Waarborgen dat informatiebeveiliging integraal deel uitmaakt van
+          informatiesystemen in de gehele levenscyclus. Hiertoe behoren ook de
+          eisen voor informatiesystemen die diensten verlenen via openbare
+          netwerken.</p>
+      </part>
+    </group>
+    <group id="s14.2">
+      <title>Beveiliging in ontwikkelings- en ondersteunende processen</title>
+      <prop name="label" value="14.2"/>
+      <part id="s14.2_smt" name="objective">
+        <p>Bewerkstelligen dat informatiebeveiliging wordt ontworpen en
+          geïmplementeerd binnen de ontwikkelingslevenscyclus van
+          informatiesystemen.</p>
+      </part>
+    </group>
+    <group id="s14.3">
+      <title>Testgegevens</title>
+      <prop name="label" value="14.4"/>
+      <part id="s14.3_smt" name="objective">
+        <p>Bescherming waarborgen van gegevens die voor het testen zijn
+          gebruikt.</p>
+      </part>
+    </group>
+  </group>
+  <group id="s15">
+    <title>Leveranciersrelaties</title>
+    <prop name="label" value="15"/>
+    <group id="s15.1">
+      <title>Informatiebeveiliging in leveranciersrelaties</title>
+      <prop name="label" value="15.1"/>
+      <part id="s15.1_smt" name="objective">
+        <p>De bescherming waarborgen van bedrijfsmiddelen van de organisatie
+          die toegankelijk zijn voor leveranciers</p>
+      </part>
+    </group>
+    <group id="s15.2">
+      <title>Beheer van dienstverlening van leveranciers</title>
+      <prop name="label" value="15.2"/>
+      <part id="s15.2_smt" name="objective">
+        <p>Een overeengekomen niveau van informatiebeveiliging en
+          dienstverlening in overeenstemming met de leveranciersovereenkomsten
+          handhaven.</p>
+      </part>
+    </group>
+  </group>
+  <group id="s16">
+    <title>Beheer van informatiebeveiligingsincidenten</title>
+    <prop name="label" value="16"/>
+    <group id="s16.1">
+      <title>Beheer van informatiebeveiligingsincidenten en -verbeteringen</title>
+      <prop name="label" value="16.1"/>
+      <part id="s16.1_smt" name="objective">
+        <p>Een consistente en doeltreffende aanpak bewerkstelligen van het
+          beheer van informatiebeveiligingsincidenten, met inbegrip van
+          communicatie over beveiligingsgebeurtenissen en zwakke plekken in de
+          beveiliging.</p>
+      </part>
+    </group>
+  </group>
+  <group id="s17">
+    <title>Informatiebeveiligingsaspecten van bedrijfscontinuïteitsbeheer</title>
+    <prop name="label" value="17"/>
+    <group id="s17.1">
+      <title>Informatiebeveiligingscontinuïteit</title>
+      <prop name="label" value="17.1"/>
+      <part id="s17.1_smt" name="objective">
+        <p>Informatiebeveiligingscontinuïteit behoort te worden ingebed in de
+          systemen van het bedrijfscontinuïteitsbeheer van de organisatie.</p>
+      </part>
+    </group>
+    <group id="s17.2">
+      <title>Redundante componenten</title>
+      <prop name="label" value="17.2"/>
+      <part id="s17.2_smt" name="objective">
+        <p>Beschikbaarheid van informatie verwerkende faciliteiten
+          bewerkstelligen.</p>
+      </part>
+    </group>
+  </group>
+  <group id="s18">
+    <title>Naleving</title>
+    <prop name="label" value="18"/>
+    <group id="s18.1">
+      <title>Naleving van wettelijke en contractuele eisen</title>
+      <prop name="label" value="18.1"/>
+      <part id="s18.1_smt" name="objective">
+        <p>Voorkomen van schendingen van wettelijke, statutaire, regelgevende
+          of contractuele verplichtingen betreffende informatiebeveiliging en
+          beveiligingseisen.</p>
+      </part>
+    </group>
+    <group id="s18.2">
+      <title>Informatiebeveiligingsbeoordelingen</title>
+      <prop name="label" value="18.2"/>
+      <part id="s18.2_smt" name="objective">
+        <p>Verzekeren dat informatiebeveiliging wordt geïmplementeerd en
+          uitgevoerd in overeenstemming met de beleidsregels en procedures van
+          de organisatie.</p>
+      </part>
+    </group>
+  </group>
   <back-matter>
     <resource uuid="fe721880-14ea-4efb-9bb2-4d51e646901d">
       <title>Baseline Informatiebeveiliging Overheid</title>
