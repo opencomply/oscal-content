@@ -1,15 +1,457 @@
 ---
 catalog:
-  uuid: 6a1d7aad-fa27-4046-8ec2-0c1447387e74
+  uuid: e748962d-67a9-40e9-9375-79e838df79d5
   metadata:
     title: Baseline Informatiebeveiliging Overheid
     published: 2022-01-03T21:00:00+00:00
-    last-modified: 2022-01-03T21:00:00+00:00
+    last-modified: 2022-01-07T21:53:00+00:00
     version: 1.0.4
     oscal-version: 1.0.0
     links:
       - href: "#fe721880-14ea-4efb-9bb2-4d51e646901d"
         rel: canonical
+  groups:
+    - id: s5
+      title: Informatiebeveiligingsbeleid
+      props:
+        - name: label
+          value: "5"
+      groups:
+        - id: s5.1
+          title: Aansturing door de directie van de informatiebeveiliging
+          props:
+            - name: label
+              value: "5.1"
+          parts:
+            - id: s5.1_smt
+              name: objective
+              prose: Het verschaffen van directieaansturing van en -steun voor
+                informatiebeveiliging in overeenstemming met bedrijfseisen en
+                relevante wet- en regelgeving.
+    - id: s6
+      title: Organiseren van informatiebeveiliging
+      props:
+        - name: label
+          value: "6"
+      groups:
+        - id: s6.1
+          title: Interne organisatie
+          props:
+            - name: label
+              value: "6.1"
+          parts:
+            - id: s6.1_smt
+              name: objective
+              prose: Een beheerkader vaststellen om de implementatie en uitvoering van de
+                informatiebeveiliging binnen de organisatie te initiëren en te
+                beheersen.
+        - id: s6.2
+          title: Mobiele apparatuur en telewerken
+          props:
+            - name: label
+              value: "6.2"
+          parts:
+            - id: s6.2_smt
+              name: objective
+              prose: Het waarborgen van de veiligheid van telewerken en het gebruik van
+                mobiele apparatuur
+    - id: s7
+      title: Veilig personeel
+      props:
+        - name: label
+          value: "7"
+      groups:
+        - id: s7.1
+          title: Voorafgaand aan het dienstverband
+          props:
+            - name: label
+              value: "7.1"
+          parts:
+            - id: s7.1_smt
+              name: objective
+              prose: Waarborgen dat medewerkers en contractanten hun verantwoordelijkheden
+                begrijpen en geschikt zijn voor de rollen waarvoor zij in
+                aanmerking komen.
+        - id: s7.2
+          title: Tijdens het dienstverband
+          props:
+            - name: label
+              value: "7.2"
+          parts:
+            - id: s7.2_smt
+              name: objective
+              prose: Ervoor zorgen dat medewerkers en contractanten zich bewust zijn van hun
+                verantwoordelijkheden op het gebied van informatiebeveiliging en
+                deze nakomen.
+        - id: s7.3
+          title: Beëindiging en wijziging van dienstverband
+          props:
+            - name: label
+              value: "7.3"
+          parts:
+            - id: s7.3_smt
+              name: objective
+              prose: Het beschermen van de belangen van de organisatie als onderdeel van de
+                wijzigings- of beëindigingsprocedure van het dienstverband.
+    - id: s8
+      title: Beheer van bedrijfsmiddelen
+      props:
+        - name: label
+          value: "8"
+      groups:
+        - id: s8.1
+          title: Verantwoordelijkheid voor bedrijfsmiddelen
+          props:
+            - name: label
+              value: "8.1"
+          parts:
+            - id: s8.1_smt
+              name: objective
+              prose: Bedrijfsmiddelen van de organisatie identificeren en passende
+                verantwoordelijkheden ter bescherming definiëren.
+        - id: s8.2
+          title: Informatieclassificatie
+          props:
+            - name: label
+              value: "8.2"
+          parts:
+            - id: s8.2_smt
+              name: objective
+              prose: "Bewerkstelligen dat informatie een passend beschermingsniveau krijgt dat
+                in overeenstemming is met het belang ervan voor de organisatie.
+                "
+        - id: s8.3
+          title: Behandelen van media
+          props:
+            - name: label
+              value: "8.3"
+          parts:
+            - id: s8.3_smt
+              name: objective
+              prose: Onbevoegde openbaarmaking, wijziging, verwijdering of vernietiging van
+                informatie die op media is opgeslagen voorkomen.
+    - id: s9
+      title: Toegangsbeveiliging
+      props:
+        - name: label
+          value: "9"
+      groups:
+        - id: s9.1
+          title: Bedrijfseisen voor toegangsbeveiliging
+          props:
+            - name: label
+              value: "9.1"
+          parts:
+            - id: s9.1_smt
+              name: objective
+              prose: Toegang tot informatie en informatie verwerkende faciliteiten beperken.
+        - id: s9.2
+          title: Beheer van toegangsrechten van gebruikers
+          props:
+            - name: label
+              value: "9.2"
+          parts:
+            - id: s9.2_smt
+              name: objective
+              prose: Toegang voor bevoegde gebruikers bewerkstelligen en onbevoegde toegang
+                tot systemen en diensten voorkomen.
+        - id: s9.3
+          title: Verantwoordelijkheden van gebruikers
+          props:
+            - name: label
+              value: "9.3"
+          parts:
+            - id: s9.3_smt
+              name: objective
+              prose: Gebruikers verantwoordelijk maken voor het beschermen van hun
+                authenticatie-informatie.
+        - id: s9.4
+          title: Toegangsbeveiliging van systeem en toepassing
+          props:
+            - name: label
+              value: "9.4"
+          parts:
+            - id: s9.4_smt
+              name: objective
+              prose: Onbevoegde toegang tot systemen en toepassingen voorkomen.
+    - id: s10
+      title: Cryptografie
+      props:
+        - name: label
+          value: "10"
+      groups:
+        - id: s10.1
+          title: Cryptografische beheersmaatregelen
+          props:
+            - name: label
+              value: "10.1"
+          parts:
+            - id: s10.1_smt
+              name: objective
+              prose: Zorgen voor correct en doeltreffend gebruik van cryptografie om de
+                vertrouwelijkheid, authenticiteit en/of integriteit van
+                informatie te beschermen.
+    - id: s11
+      title: Fysieke beveiliging en beveiliging van de omgeving
+      props:
+        - name: label
+          value: "11"
+      groups:
+        - id: s11.1
+          title: Beveiligde gebieden
+          props:
+            - name: label
+              value: "11.1"
+          parts:
+            - id: s11.1_smt
+              name: objective
+              prose: Onbevoegde fysieke toegang tot, schade aan en interferentie met
+                informatie en informatie verwerkende faciliteiten van de
+                organisatie voorkomen.
+        - id: s11.2
+          title: Apparatuur
+          props:
+            - name: label
+              value: "11.2"
+          parts:
+            - id: s11.2_smt
+              name: objective
+              prose: Verlies, schade, diefstal of compromittering van bedrijfsmiddelen en
+                onderbreking van de bedrijfsvoering van de organisatie
+                voorkomen.
+    - id: s12
+      title: Beveiliging bedrijfsvoering
+      props:
+        - name: label
+          value: "12"
+      groups:
+        - id: s12.1
+          title: Bedieningsprocedures en verantwoordelijkheden
+          props:
+            - name: label
+              value: "12.1"
+          parts:
+            - id: s12.1_smt
+              name: objective
+              prose: Correcte en veilige bediening van informatie verwerkende faciliteiten
+                waarborgen.
+        - id: s12.2
+          title: Bescherming tegen malware
+          props:
+            - name: label
+              value: "12.2"
+          parts:
+            - id: s12.2_smt
+              name: objective
+              prose: Waarborgen dat informatie en informatie verwerkende faciliteiten
+                beschermd zijn tegen malware.
+        - id: s12.3
+          title: Back-up
+          props:
+            - name: label
+              value: "12.3"
+          parts:
+            - id: s12.3_smt
+              name: objective
+              prose: Beschermen tegen het verlies van gegevens.
+        - id: s12.4
+          title: Verslaglegging en monitoren
+          props:
+            - name: label
+              value: "12.4"
+          parts:
+            - id: s12.4_smt
+              name: objective
+              prose: Gebeurtenissen vastleggen en bewijs verzamelen.
+        - id: s12.5
+          title: Beheersing van operationele software
+          props:
+            - name: label
+              value: "12.5"
+          parts:
+            - id: s12.5_smt
+              name: objective
+              prose: De integriteit van operationele systemen waarborgen.
+        - id: s12.6
+          title: Beheer van technische kwetsbaarheden
+          props:
+            - name: label
+              value: "12.6"
+          parts:
+            - id: s12.6_smt
+              name: objective
+              prose: Benutting van technische kwetsbaarheden voorkomen.
+        - id: s12.7
+          title: Overwegingen betreffende audits van informatiesystemen
+          props:
+            - name: label
+              value: "17"
+          parts:
+            - id: s12.7_smt
+              name: objective
+              prose: De impact van auditactiviteiten op uitvoeringssystemen zo gering mogelijk
+                maken.
+    - id: s13
+      title: Communicatiebeveiliging
+      props:
+        - name: label
+          value: "13"
+      groups:
+        - id: s13.1
+          title: Beheer van netwerkbeveiliging
+          props:
+            - name: label
+              value: "13.1"
+          parts:
+            - id: s13.1_smt
+              name: objective
+              prose: De bescherming van informatie in netwerken en de ondersteunende
+                informatie verwerkende faciliteiten waarborgen.
+        - id: s13.2
+          title: Informatietransport
+          props:
+            - name: label
+              value: "13.2"
+          parts:
+            - id: s13.2_smt
+              name: objective
+              prose: Handhaven van de beveiliging van informatie die wordt uitgewisseld binnen
+                een organisatie en met een externe entiteit.
+    - id: s14
+      title: Acquisitie, ontwikkeling en onderhoud van informatiesystemen
+      props:
+        - name: label
+          value: "14"
+      groups:
+        - id: s14.1
+          title: Beveiligingseisen voor informatiesystemen
+          props:
+            - name: label
+              value: "14.1"
+          parts:
+            - id: s14.1_smt
+              name: objective
+              prose: Waarborgen dat informatiebeveiliging integraal deel uitmaakt van
+                informatiesystemen in de gehele levenscyclus. Hiertoe behoren
+                ook de eisen voor informatiesystemen die diensten verlenen via
+                openbare netwerken.
+        - id: s14.2
+          title: Beveiliging in ontwikkelings- en ondersteunende processen
+          props:
+            - name: label
+              value: "14.2"
+          parts:
+            - id: s14.2_smt
+              name: objective
+              prose: Bewerkstelligen dat informatiebeveiliging wordt ontworpen en
+                geïmplementeerd binnen de ontwikkelingslevenscyclus van
+                informatiesystemen.
+        - id: s14.3
+          title: Testgegevens
+          props:
+            - name: label
+              value: "14.4"
+          parts:
+            - id: s14.3_smt
+              name: objective
+              prose: Bescherming waarborgen van gegevens die voor het testen zijn gebruikt.
+    - id: s15
+      title: Leveranciersrelaties
+      props:
+        - name: label
+          value: "15"
+      groups:
+        - id: s15.1
+          title: Informatiebeveiliging in leveranciersrelaties
+          props:
+            - name: label
+              value: "15.1"
+          parts:
+            - id: s15.1_smt
+              name: objective
+              prose: De bescherming waarborgen van bedrijfsmiddelen van de organisatie die
+                toegankelijk zijn voor leveranciers
+        - id: s15.2
+          title: Beheer van dienstverlening van leveranciers
+          props:
+            - name: label
+              value: "15.2"
+          parts:
+            - id: s15.2_smt
+              name: objective
+              prose: Een overeengekomen niveau van informatiebeveiliging en dienstverlening in
+                overeenstemming met de leveranciersovereenkomsten handhaven.
+    - id: s16
+      title: Beheer van informatiebeveiligingsincidenten
+      props:
+        - name: label
+          value: "16"
+      groups:
+        - id: s16.1
+          title: Beheer van informatiebeveiligingsincidenten en -verbeteringen
+          props:
+            - name: label
+              value: "16.1"
+          parts:
+            - id: s16.1_smt
+              name: objective
+              prose: Een consistente en doeltreffende aanpak bewerkstelligen van het beheer
+                van informatiebeveiligingsincidenten, met inbegrip van
+                communicatie over beveiligingsgebeurtenissen en zwakke plekken
+                in de beveiliging.
+    - id: s17
+      title: Informatiebeveiligingsaspecten van bedrijfscontinuïteitsbeheer
+      props:
+        - name: label
+          value: "17"
+      groups:
+        - id: s17.1
+          title: Informatiebeveiligingscontinuïteit
+          props:
+            - name: label
+              value: "17.1"
+          parts:
+            - id: s17.1_smt
+              name: objective
+              prose: Informatiebeveiligingscontinuïteit behoort te worden ingebed in de
+                systemen van het bedrijfscontinuïteitsbeheer van de organisatie.
+        - id: s17.2
+          title: Redundante componenten
+          props:
+            - name: label
+              value: "17.2"
+          parts:
+            - id: s17.2_smt
+              name: objective
+              prose: Beschikbaarheid van informatie verwerkende faciliteiten bewerkstelligen.
+    - id: s18
+      title: Naleving
+      props:
+        - name: label
+          value: "18"
+      groups:
+        - id: s18.1
+          title: Naleving van wettelijke en contractuele eisen
+          props:
+            - name: label
+              value: "18.1"
+          parts:
+            - id: s18.1_smt
+              name: objective
+              prose: Voorkomen van schendingen van wettelijke, statutaire, regelgevende of
+                contractuele verplichtingen betreffende informatiebeveiliging en
+                beveiligingseisen.
+        - id: s18.2
+          title: Informatiebeveiligingsbeoordelingen
+          props:
+            - name: label
+              value: "18.2"
+          parts:
+            - id: s18.2_smt
+              name: objective
+              prose: Verzekeren dat informatiebeveiliging wordt geïmplementeerd en uitgevoerd
+                in overeenstemming met de beleidsregels en procedures van de
+                organisatie.
   back-matter:
     resources:
       - uuid: fe721880-14ea-4efb-9bb2-4d51e646901d
